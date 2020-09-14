@@ -1,0 +1,9 @@
+var massa = Number(prompt ("Digite seu peso (KG): "));
+var altura = Number(prompt ("Digite sua altura: "));
+var imc = massa/(altura*altura);
+
+if (imc>=18.5 && imc<25.0){
+document.write ("Seu IMC e " + imc + " e voce esta no peso ideal")
+} else {
+document.write ("Seu IMC e " + imc + " e voce esta acima do peso")
+}
